@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<!-- HTML est le conteneur global des pages HTML et la racine du document-->
+<html lang="fr">
+	<!--HEAD contient les meta-informations de la page, informations de la page devant être transmises au navigateur -->
+	<head>
+		<!--  UTF-8 est un répertoire universel de caractères -->
+		<meta charset="utf-8">
+		<!-- META VIEWPORT permet de controler le zoom et la mise en page sur les navigateur mobile et tablette -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- Cette Balise correspond aux icones Fontawesome et le chemin -->
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+		<link rel="icon" href="logo.ico" />
+		<!-- Link stylesheet et style.css Correspond a la feuille de style est sont chemin -->
+		<link rel="stylesheet" href="style.css">
+		<!-- Le Titre est important pour le référencement -->
+		<title>WEB AGENCY</title>
+	</head>
+	<!-- BODY contient le "corps" de la page c'est à dire les informations que le navigateur doit afficher --><body><!-- Début bloc parent Header --><header class="nav1">  <!-- Logo dans la barre de navigation --><a class="logo" href="#Accueil"><img src="images/logo.png" alt="logo WebAgency"></a><!-- Logo dans la barre de navigation --><!-- Bloc Nav version PC --><nav><ul class="menu flex"><li><div class="li flex" title="liActive"><a class="accueil" href="#accueil">Accueil</a></div></li><li><div class="li flex"><a href="#services">Services</a></div></li><li><div class="li flex"><a href="#portfolio">Portfolio</a></div></li><li><div class="li flex"><a href="#contact">Contact</a></div></li></ul></nav><!-- Fin Bloc Nav version PC --><!-- Début du Bloc Menuburger version Mobile et Tablette --><div id="burger"><a href="#menuRun"><span><i class="fas fa-bars"></i></span></a></div><div id="menuRun" class="flex"><div class="crossBurger"><a href="#burger"><span><i class="fas fa-times"></i></span></a></div><div><a href="#accueil">Accueil</a></div><div><a href="#services">Services</a></div><div><a href="#portfolio">Portfolio</a></div><div><a href="#contact">Contact</a></div></div><!-- Fin du Bloc Menuburger version Mobile et Tablette -->  </header><!-- Fin bloc parent Header --><!-- DEBUT DE LA SECTION 1 --><section class="section1" id="accueil">  <!-- DIV container du slider --> <div id="slider"><!-- figure est un élément également "container" il permet de lier et/ou superposé des images,videos,liens,tableau --><figure><img src="images/slider/bg1.jpg" alt="fillette">  <img src="images/slider/bg2.jpg" alt="garçon"></figure></div>  <!-- Fin de Mon container DIV slider -->  <!-- Boutton précédent icon Fontawesome --><div class="previous"> <i class="fas fa-angle-left"></i></div><!-- Boutton Suivant icon Fontawesome --> <div class="next"> <i class="fas fa-angle-right"></i> </div>  <div class="blockwebagency"><h1>WEBAGENCY<span class="webagency"> : L'AGENCE DE TOUS<br/>
+	VOS PROJETS !
+</span>
+</h1>
+<p class="slogan">Vous avez un projet web ? La WebAgency vous aide à le réaliser !
+<p>
+	<input class="buttoninfo" type="button" value="Plus d'infos">
+</div>
+</section><a id="service" class="pod">.</a>
+<!-- FIN DE LA SECTION 1 -->
+<!-- DEBUT DE LA SECTION NOS SERVICE -->
+<section id="services" class="nosservices">
+<!-- H2 est un titre de niveau 2 -->
+<h2>NOS SERVICES</h2>
+<!-- Ligne grise + icon -->
+<div class="blocns">
+	<div class="barreseparation">
+		<hr>
+		<span class="dodane"><i class="fa fa-circle"></i></span>
+		<hr>
+	</div>
+</div>
+<p class="intro">
+	Nous sommes une Agence web, spécialisée en application Web & Mobile,
+	<br>
+	 Création de site internet, Stratégie digitale, Référencement naturel etc...
+</p>
+<div class="blocimgimac">
+	<div class="imgimac">
+		<img src="images/mainfeature.png" class="imac" alt="photo imac">
+	</div>
+</div>
+<!-- Article contenant des Icon FontAwesome + des Paragraphe -->
+<article>
+	<div>
+		<div class="paragraphflex">
+			<div class="iconflex">
+				<i class="fas fa-chart-line fa-2x"></i>
+			</div>
+			<span class="dotIcon"><i class="fas fa-circle" id="pbleu"></i></span>
+		</div>
+		<!-- H3 est un titre de niveau 3 -->
+		<h3> UX design</h3>
+		<p>
+			<em>UX design</em>
+			 est une discipline dont  l'objectif est de concevoir un produit au service des utilisateurs
+		</p>
+	</div>
+	<div>
+		<div class="paragraphflex">
+			<div class="iconflex">
+				<i class="fas fa-cubes fa-2x"></i>
+			</div>
+			<span class="dotIcon"><i class="fas fa-circle"></i></span>
+		</div>
+		<!-- H3 est un titre de niveau 3 -->
+		<h3>UI design</h3>
+		<p>
+			La mission de l’
+			<em>UI design</em>
+			 consiste à créer une interface agréable et pratique, facile à prendre en main
+		</p>
+	</div>
+	<div>
+		<div class="paragraphflex">
+			<div class="iconflex">
+				<i class="fas fa-chart-pie fa-2x"></i>
+			</div>
+			<span class="dotIcon"><i class="fas fa-circle"></i></span>
+		</div>
+	</div>
+	<!-- H3 est un titre de niveau 3 -->
+	<h3> SEO</h3>
+	<p>
+		<em>SEO</em>
+		 alias Référencement naturel, est un ensemble de techniques visant à optimiser la visibilité d'une page web dans les résultats de recherche
+	</p>
+</article><a class="portfolio"></a>
+</section>
+
+	<!-- FIN Article contient des Icon FontAwesome + des Paragraphe -->
+<!-- FIN DE LA SECTION NOS SERVICES -->
+<!-- DEBUT DE LA SECTION NOS PROJETS -->
+<section class="nosprojets" id="portfolio">
+	<h2>
+	 NOS PROJETS 
+	</h2>
+<div class="blocbleu"><hr class="hr3"></div>
+<span class="pointbleu2"><i class="fas fa-circle" id="pointbleu2"></i></span>
+<div class="pointbleu3">
+	<i class="fas fa-circle" id="pointbleu3"></i>
+</div>
+<p id="idReal">
+	Voici quelques une de nos réalisations !
+</p>
+<br/>
+<!-- Début du navigateur NAV2 section nos projets -->
+<div id="boutons">
+	<button id="b1"><span id="triangle1"></span>All Works</button>
+	<button id="b2"><span id="triangle2"></span>Creative</button>
+	<button id="b3"><span id="triangle3"></span>Corporate</button>
+	<button id="b4"><span id="triangle4"></span>Portfolio</button>
+</div>
+
+<!-- Fin du navigateur NAV2 section nos projets -->
+<br/>
+<br/>
+<br/>
+<!-- IMAGES PORTFOLIO + Div + P "Possibilité de remplacé les Div par Figure et FigureCaption" -->
+<div class="bloc-vignettes"><div class="vignette">
+	<img src="images/portfolio/01.jpg"  alt="Lunette et faux nez">
+	<div>
+		<p>
+			<strong>Site Opticien </strong>
+			<br>
+			Célèbre Marque Glass&Pif
+			<i class="fa fa-eye" aria-hidden="true"></i>
+		</p>
+	</div>
+</div>
+<div class="vignette">
+	<img src="images/portfolio/02.jpg" alt="Lapin rose">
+	<div>
+		<p>
+			<strong>Blog d'un Lapin Rose</strong>
+			<br>
+			Ayant L'air Fort Sympatique
+			<i class="fa fa-eye" aria-hidden="true"></i>
+		</p>
+	</div>
+</div>
+<div class="vignette">
+	<img src="images/portfolio/03.jpg" alt="Pompadour">
+	<div>
+		<p>
+			<strong>Blog Pompadour</strong>
+			<br>
+			La Marquise des lumières
+			<i class="fa fa-eye" aria-hidden="true"></i>
+		</p>
+	</div>
+</div>
+<div class="vignette">
+	<img src="images/portfolio/04.jpg" alt="Feuille blanche">
+	<div>
+		<p>
+			<strong>Site Cabinet conseils</strong>
+			<br>
+			Un bon conseil n'a pas de prix !
+			<i class="fa fa-eye" aria-hidden="true"></i>
+		</p>
+	</div>
+</div>
+<div class="vignette">
+	<img src="images/portfolio/05.jpg" alt="Sac de shopping">
+	<div>
+		<p>
+			<strong>Site Dreamshop</strong>
+			<br>
+			Boutique de prêt à porté
+			<i class="fa fa-eye" aria-hidden="true"></i>
+		</p>
+	</div>
+</div>
+<div class="vignette">
+	<img src="images/portfolio/06.jpg" alt="Mars Fatigué">
+	<div>
+		<p>
+			<strong>Site pour un Illustrateur</strong>
+			<br>
+			L'Art n'a t il que pour fin le plaisir ?
+			<i class="fa fa-eye" aria-hidden="true"></i>
+		</p>
+	</div>
+</div>
+<div class="vignette">
+	<img src="images/portfolio/07.jpg" alt="Un missile">
+	<div>
+		<p>
+			<strong>Site spécialisé en sécurité réseau </strong>
+			<br>
+			Entreprise WoldSecurity
+			<i class="fa fa-eye" aria-hidden="true"></i>
+		</p>
+	</div>
+</div>
+<div class="vignette">
+	<img src="images/portfolio/08.jpg" alt="BOX">
+	<div>
+		<p>
+			<strong>Site E-commerce Box</strong>
+			<br>
+			La Super BOX du parfait secrétaire
+			<i class="fa fa-eye" aria-hidden="true"></i>
+		</p>
+	</div>
+</div>
+</div>
+</section>
+<!-- FIN DE LA SECTION NOS PROJETS -->
+<br/>
+<br/>
+<!-- DEBUT DE FOOTER CONTENANT IFRAME GOOGLEMAP + FORMULAIRE -->
+<section id="contact"><div id="blue_layer">
+</div>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5248.44914168933!2d2.345652081795959!3d48.872995325819815!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e145ccb3091%3A0x9495beee8c96ec27!2s25+Rue+d'Hauteville%2C+75010+Paris!5e0!3m2!1sfr!2sfr!4v1536324366468" allowfullscreen=""></iframe>
+<form><h3>
+	Contact Info
+</h3>
+<p id="infos">
+	<strong>WebAgency SAS</strong>
+	<br>
+	25 Rue d'Hauteville 75010 Paris
+	<br>
+	<span id="tel">Tel :</span>
+	 01 02 03 04 05
+</p>
+<p>
+	<input type="text"  placeholder="Name">
+</p>
+<p>
+	<input type="email" placeholder="Email">
+</p>
+<p>
+	<input type="text" placeholder="Subject">
+</p>
+<textarea rows="7" placeholder="Message"></textarea>
+<p>
+	<input type="submit" class="submit" value="Send Message">
+	<br/>
+</p>
+</form>
+</section>
+<br>
+<footer class="containerFooter">
+	<p id="containerQuote"> Il ne peut y avoir de partage sans liberté d'expression... |
+		Intégration réaliser par <a id="openClassRooms" href="https://brian-durand.com/">Brian Durand</a> |
+		© Copyright 2020 
+	</p>
+	<p>
+		<a href="http://jigsaw.w3.org/css-validator/check/referer">
+			<img style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+				alt="CSS Valide !" />
+		</a>
+	</p>
+</footer>
